@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const db_link = "mongodb+srv://admin:nFhOZtaH9GSZeqfM@cluster0.lsfyz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const db_link = "";
 
 mongoose.connect(db_link)
 .then((db)=>{
