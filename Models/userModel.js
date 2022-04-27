@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const validator = require("email-validator");
 let bcrypt = require("bcrypt");
 const saltRounds = 10;
-const db_link = "mongodb+srv://admin:nFhOZtaH9GSZeqfM@cluster0.lsfyz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const db_link = "";
 const {randomBytes} = import('crypto');
 
 mongoose.connect(db_link)
